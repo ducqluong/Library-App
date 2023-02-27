@@ -2,7 +2,6 @@ import { useState } from "react";
 import BookEdit from "./BookEdit";
 import deleteLogo from "../icons/delete-icon.svg";
 import editLogo from "../icons/edit-icon.svg";
-import searchImage from "../api";
 
 function BookShow({ book, onDelete, onEdit }) {
   const [showEdit, setShowEdit] = useState(false);
@@ -21,8 +20,6 @@ function BookShow({ book, onDelete, onEdit }) {
   };
 
   let content = <div></div>;
-
-  let image = searchImage(book.title);
 
   if (showEdit) {
     content = <BookEdit onSubmit={handleSubmit} book={book} />;
