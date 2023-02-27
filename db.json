@@ -1,0 +1,28 @@
+{
+  "books": [
+    {
+      "title": "Harry Potters",
+      "author": "John",
+      "pages": "12",
+      "id": 1
+    },
+    {
+      "title": "The Hobbit",
+      "author": "Bro",
+      "pages": "3",
+      "id": 2
+    },
+    {
+      "title": "George",
+      "author": "Yak",
+      "pages": "66",
+      "id": 3
+    },
+    {
+      "title": "Labor",
+      "author": "Tore",
+      "pages": "64",
+      "id": 4
+    }
+  ]
+}
